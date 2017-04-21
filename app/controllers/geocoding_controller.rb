@@ -13,7 +13,7 @@ class GeocodingController < ApplicationController
 
 
 
-    url = "http://maps.googleapis.com/maps/api/geocode/ison?address="
+    url = "http://maps.googleapis.com/maps/api/geocode/json?address="
 
     url_useredit = url + @street_address.gsub(" ","+")
 
